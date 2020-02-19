@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
+
+    <!-- Header: menu in alto, logo gmail + titolo, input per ricerca email e web -->
     <header>
       <section id="menu">
         <a class="menu-item" href="#">+Davide</a>
@@ -20,11 +22,13 @@
       </section>
 
       <section id="header-box">
+        <!-- Logo -->
         <div class="box-laterale">
           <img class="logo-img" src="img/logo.png" alt="Gmail, Posta in Arrivo">
           <span class="logo-titolo">Gmail</span>
         </div>
 
+        <!-- Box ricerca -->
         <div class="box">
           <input type="text" id="inbox-search" name="inbox-search" value="boolean careers">
           <input type="submit" id="inbox-search-button" name="inbox-search-button" value="Search Mail">
@@ -33,8 +37,11 @@
       </section>
     </header>
 
+    <!-- Main: container email, pubblicità e filtri -->
     <main>
       <div id="bg-container">
+
+        <!-- Pubblicità -->
         <section id="advertising">
           <a href="index.html" id="adv-text">
             <span id="adv-highlight">Diventa Sviluppatore Web</span>
@@ -43,6 +50,7 @@
 
         <section id="inbox-container">
 
+          <!-- Filtri (top) -->
           <div class="filters">
 
             <input type="submit" name="" value="&#9744;">
@@ -62,69 +70,72 @@
 
           </div>
 
+          <!-- Email Rows -->
           <div class="email-row unread">
             <input type="checkbox" class="selezione-email" name="" value="">
             <span class="star"></span>
-            <span class="mittente-email">Paolo Duzioni</span>
-            <span class="titolo-email">Lorem ipsum dolor sit amet</span>
-            <span class="testo-email">Lorem ipsum dolor sit amet</span>
-          </div>
-
-          <div class="email-row unread">
-            <input type="checkbox" class="selezione-email" name="" value="">
-            <span class="star"></span>
-            <span class="mittente-email">Paolo Duzioni</span>
-            <span class="titolo-email">Lorem ipsum dolor sit amet</span>
-            <span class="testo-email">Lorem ipsum dolor sit amet</span>
-          </div>
-
-          <div class="email-row read">
-            <input type="checkbox" class="selezione-email" name="" value="">
-            <span class="star"></span>
-            <span class="mittente-email">Paolo Duzioni</span>
-            <span class="titolo-email">Lorem ipsum dolor sit amet</span>
-            <span class="testo-email">Lorem ipsum dolor sit amet</span>
-          </div>
-
-          <div class="email-row read">
-            <input type="checkbox" class="selezione-email" name="" value="">
-            <span class="star"></span>
-            <span class="mittente-email">Paolo Duzioni</span>
-            <span class="titolo-email">Lorem ipsum dolor sit amet</span>
-            <span class="testo-email">Lorem ipsum dolor sit amet</span>
+            <span class="mittente-email">Boolean Careers</span>
+            <span class="titolo-email">Pronto a dare una svolta alla tua carriera?</span>
+            <span class="testo-email">Negli anni, sono milardi le persone che si sono iscritte al nostro corso...</span>
           </div>
 
           <div class="email-row unread">
             <input type="checkbox" class="selezione-email" name="" value="">
             <span class="star"></span>
-            <span class="mittente-email">Paolo Duzioni</span>
-            <span class="titolo-email">Lorem ipsum dolor sit amet</span>
-            <span class="testo-email">Lorem ipsum dolor sit amet</span>
+            <span class="mittente-email">Paolo, me (2)</span>
+            <span class="titolo-email">Occhio all'esercizio di oggi!</span>
+            <span class="testo-email">Dovete creare una copia dell'homepage di Netflix e renderla responsive per Gameboy e Nintendo64</span>
           </div>
 
           <div class="email-row read">
             <input type="checkbox" class="selezione-email" name="" value="">
             <span class="star"></span>
-            <span class="mittente-email">Paolo Duzioni</span>
-            <span class="titolo-email">Lorem ipsum dolor sit amet</span>
-            <span class="testo-email">Lorem ipsum dolor sit amet</span>
+            <span class="mittente-email">Lorem Booleano</span>
+            <span class="titolo-email">Classe #pigreco - Invito a visualizzare</span>
+            <span class="testo-email">lorem@boolean.careers ti ha invitato a visualizzare la seguente cartella condivisa...</span>
           </div>
 
           <div class="email-row read">
             <input type="checkbox" class="selezione-email" name="" value="">
             <span class="star"></span>
-            <span class="mittente-email">Paolo Duzioni</span>
+            <span class="mittente-email">Booly Booly</span>
+            <span class="titolo-email">Accesso a Slack + Drive - Developer con Boolean</span>
+            <span class="testo-email">Come anticipato, in questa fase iniziale vi chiediamo gentilmente...</span>
+          </div>
+
+          <div class="email-row unread">
+            <input type="checkbox" class="selezione-email" name="" value="">
+            <span class="star"></span>
+            <span class="mittente-email">Boolean Careers</span>
             <span class="titolo-email">Lorem ipsum dolor sit amet</span>
+            <span class="testo-email">Lorem ipsum dolor sit ametvi chiediamo gentilmente...</span>
           </div>
 
           <div class="email-row read">
             <input type="checkbox" class="selezione-email" name="" value="">
             <span class="star"></span>
-            <span class="mittente-email">Paolo Duzioni</span>
+            <span class="mittente-email">Boolean Careers</span>
             <span class="titolo-email">Lorem ipsum dolor sit amet</span>
-            <span class="testo-email">Lorem ipsum dolor sit amet</span>
+            <span class="testo-email">Lorem ipsum dolor sit ametvi chiediamo gentilmente...</span>
           </div>
 
+          <div class="email-row read">
+            <input type="checkbox" class="selezione-email" name="" value="">
+            <span class="star"></span>
+            <span class="mittente-email">Boolean Careers</span>
+            <span class="titolo-email">Lorem ipsum dolor sit</span>
+            <span class="testo-email">Lorem ipsum dolor sit amet vi chiediamo gentilmente...</span>
+          </div>
+
+          <div class="email-row read">
+            <input type="checkbox" class="selezione-email" name="" value="">
+            <span class="star"></span>
+            <span class="mittente-email">Boolean Careers</span>
+            <span class="titolo-email">Lorem ipsum dolor sit amet</span>
+            <span class="testo-email">Lorem ipsum dolor sit amet vi chiediamo gentilmente...</span>
+          </div>
+
+          <!-- Filtri (bottom) -->
           <div class="filters">
 
             <input type="submit" name="" value="&#9744;">
@@ -148,6 +159,7 @@
       </div>
     </main>
 
+    <!-- Footer -->
     <footer>
       Made with &hearts; by Davide Saporita for Boolean Careers / Classe #12 &copy; 2020
     </footer>

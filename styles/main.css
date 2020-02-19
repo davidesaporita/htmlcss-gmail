@@ -1,4 +1,5 @@
 /* General */
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +11,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Header */
+/* Header (menu, logo, ricerca) */
+
 #menu {
   height: 30px;
   background-color: #222;
@@ -69,10 +71,11 @@ body {
   margin-left: -5px;
 }
 
-/* Main */
+/* Main (container, filtri, email rows) */
+
 #bg-container {
-  min-height: 600px;
   padding-top: 8px;
+  padding-bottom: 6px;
   padding-left: 6px;
   margin-left: 177px;
   border-radius: 5px;
@@ -103,6 +106,7 @@ body {
 #inbox-container {
   background-color: rgba(0,0,0,1);
   color: white;
+  padding-left: 6px;
 }
 
 .filters {
