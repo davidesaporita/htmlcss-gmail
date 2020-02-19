@@ -138,6 +138,8 @@ body {
   padding: 4px;
   border-top: 1px solid rgb(128, 128, 128);
   cursor: pointer;
+  white-space: nowrap; /* Trovato su "w3schools" per croppare il testo in eccesso */
+  overflow: hidden; /* Come sopra */
 }
 
 .unread {
@@ -158,6 +160,7 @@ body {
 
 .testo-email{
   color: rgba(0,0,0,0.6);
+  max-width: 1000px;
 }
 
 .mittente-email {
