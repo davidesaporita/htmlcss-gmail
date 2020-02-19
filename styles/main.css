@@ -95,16 +95,45 @@ body {
   color: rgba(255, 255, 255, 0.9);
 }
 
+#adv-highlight::after {
+  text-decoration: none;
+  content: ' - ';
+}
+
 #inbox-container {
   background-color: rgba(0,0,0,1);
   color: white;
 }
 
+.filters {
+  display: inline-block;
+  height: 32px;
+  margin-top: 6px;
+}
+
+.filters input {
+  height: 26px;
+}
+
+.filters-subgroup {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.filters-subgroup input {
+  margin-right: -2px;
+  margin-left: -2px;
+}
+
+.simple-filter{
+  padding-top: 4px;
+}
 .email-row {
   height: 28px;
   padding: 4px;
   border-top: 1px solid rgb(128, 128, 128);
-  box-shadow: rgba(255, 255, 255, 0.12) 0px -1px 0px 0px inset;
+  cursor: pointer;
 }
 
 .unread {
