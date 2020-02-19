@@ -1,0 +1,132 @@
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+#menu {
+  height: 30px;
+  padding: 6px;
+  background-color: #333333;
+}
+
+.menu-item {
+  color: #cccccc;
+  padding: 0 7px;
+  text-decoration: none;
+}
+
+.menu-item-highlight {
+  color: white;
+  font-weight: 700;
+}
+
+
+#header-box {
+  width:100%;
+  margin-top: 5px;
+}
+
+.box-15 {
+  width: 15%;
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 2%;
+  /* background: red; */
+}
+
+.box {
+  width: auto;
+  display: inline-block;
+  /* background: purple; */
+}
+
+.logo-img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.logo-titolo {
+  font-size: 24px;
+  color: white;
+}
+
+#inbox-search {
+  width: 250px;
+}
+
+/* Main */
+#bg-container {
+  min-height: 600px;
+  padding: 8px 5px 0;
+  margin-left: 15%;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#advertising {
+  padding-bottom: 7px;
+}
+
+#adv-text {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#adv-highlight {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#inbox-container {
+  background-color: rgba(0,0,0,1);
+  color: white;
+}
+
+.unread {
+  background-color: rgba(255,255,255,0.9);
+}
+
+.read {
+  background-color: rgba(255,255,255,0.7);
+}
+
+.selezione-email,
+.mittente-email,
+.titolo-email {
+  display: inline-block;
+  color: black;
+}
+
+.unread .mittente-email,
+.unread .titolo-email {
+    font-weight: bold;
+}
+
+.titolo-email::before {
+  content: ' - ';
+}
+
+.titolo-email::after {
+  content: '...';
+}
+
+.star::after {
+  content: '☆';
+  font-size:20px;
+}
+
+
+/* Footer */
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
